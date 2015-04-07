@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - bank@localhost" uuid="f51cc8bf-8388-4670-899e-46138c19f149">
+    <database-info product="MySQL" version="5.0.83-community-nt" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <schema name="" catalog="bank"/>
+    <table name="rekeningen" schema="" catalog="bank" type="TABLE">
+      <column name="rekeningnr" sqlType="BIGINT" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="saldo" sqlType="DECIMAL" precision="12" scale="2" nullable="false" jdbcType="3" def="MC4wMA=="/>
+      <primary-key name="PRIMARY" columns="rekeningnr"/>
+    </table>
+  </data-source>
+</component>
